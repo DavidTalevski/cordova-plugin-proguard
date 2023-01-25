@@ -108,3 +108,7 @@
 # These clases contain references to cordova webView
 -keep class com.ionicframework.cordova.webview.** {*; }
 -keep class com.ionicframework.cordova.webview.*
+
+# Firebase
+-keep class com.google.android.gms.** { *; }
+-keep class com.google.firebase.** { *; }
